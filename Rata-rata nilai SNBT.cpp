@@ -35,9 +35,11 @@ int main()
     cout << "Rata-rata nilai: " << rata_rata << endl;
     
     // Mengecek apakah lulus atau tidak
-    if (rata_rata > 700) {
+    if (rata_rata > 700) 
+    {
         cout << "Status: Lulus" << endl;
-    } else {
+    } else 
+    {
         cout << "Status: Tidak Lulus" << endl;
     }
     
